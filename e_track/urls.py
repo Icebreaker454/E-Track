@@ -7,4 +7,5 @@ urlpatterns = [
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^$', include('e_track.apps.core.urls'))
 ]
